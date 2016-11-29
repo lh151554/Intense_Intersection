@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp.Plugins", "Intense Intersections.CSharp.Plugins.csproj", "{C2A82601-2222-314F-1A03-255CBA766F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp", "Intense Intersections.CSharp.csproj", "{11EC1025-526C-2865-6F2A-95F8A42D9341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp.Editor", "Intense Intersections.CSharp.Editor.csproj", "{289CB30E-34E2-B33A-9093-59155FD3CFD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2A82601-2222-314F-1A03-255CBA766F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A82601-2222-314F-1A03-255CBA766F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A82601-2222-314F-1A03-255CBA766F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A82601-2222-314F-1A03-255CBA766F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
