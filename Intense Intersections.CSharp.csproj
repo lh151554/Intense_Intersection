@@ -79,6 +79,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AIControl.cs" />
+    <Compile Include="Assets\Scripts\AIPedestrianControl.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
