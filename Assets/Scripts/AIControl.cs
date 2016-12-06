@@ -11,14 +11,30 @@ public class AIControl : MonoBehaviour
     bool clicked = false; //Boolean to know if the player already clicked on the car or not
     Vector3 testPosition = new Vector3(0.0f, 0.0f, 0.0f); //Vector for testing if a car is present in front of another one
 
+    public int scoreValue; //Score for each car that pass the road safely
+    private GameController gameController; //Reference to the GameController
+
     void Start()
     {
         rb = GetComponent<Rigidbody>(); //Get the car rigidbody to apply movement on it
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController"); //Get the reference to the GameController
+
+        if(gameControllerObject != null)
+        {
+            gameController = gameControllerObject.GetComponent <GameController>();
+        }
+
+        if (gameControllerObject == null)
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
+
     }
 
     void OnCollisionEnter(Collision col)
     {
         Destroy(col.gameObject); //Destroy the car when they collide
+        gameController.GameOver(); //End the game
     }
 
     void Update()
@@ -89,28 +105,37 @@ public class AIControl : MonoBehaviour
             {
                 rb.velocity = transform.forward * speed;
                 clicked = true;
-            }
-        }
-
-        else
-        {
-            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) //Get the click of the player (Mobile Version)
-            {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                Physics.Raycast(ray, out hit);
-
-                if (hit.transform == rb.transform) //Get the position of the click
+                if (transform.position.x > 27 && transform.position.x < 29) //Remove one to the car counter
                 {
-                    rb.velocity = transform.forward * speed;
-                    clicked = true;
+                    gameController.carTop--;
+                }
+
+                if (transform.position.x < 24 && transform.position.x > 22) //Remove one to the car counter
+                {
+                    gameController.carBottom--;
+                }
+
+                if (transform.position.z > 27 && transform.position.z < 29) //Remove one to the car counter
+                {
+                    gameController.carRight--;
+                }
+
+                if (transform.position.z < 33 && transform.position.z > 31) //Remove one to the car counter
+                {
+                    gameController.carLeft--;
                 }
             }
         }
 
         if (transform.position.y < 0) //Destroy car when it leaves the map area
         {
+            gameController.AddScore(scoreValue); //Add the score of one car to the total score
             Destroy(gameObject);
+        }
+
+        if(gameController.carTop > 4 || gameController.carBottom > 4 || gameController.carRight > 3 || gameController.carLeft > 3) //If there is too much car waiting before the stop mark, the player will lose the game
+        {
+            gameController.GameOver();
         }
     }
 }
