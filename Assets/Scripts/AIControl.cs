@@ -71,13 +71,13 @@ public class AIControl : MonoBehaviour
             }
         }
 
-        if (transform.position.z > 17 && transform.position.x > 27 && transform.position.x < 29 && !clicked) //Stop the car that go to the top
+        if (transform.position.z > 16.5f && transform.position.x > 27 && transform.position.x < 29 && !clicked) //Stop the car that go to the top
         {
             rb.velocity = stop;
             pass = true;
         }
 
-        if (transform.position.z < 43 && transform.position.x < 24 && transform.position.x > 22 && !clicked) //Stop the car that go to the bottom
+        if (transform.position.z < 43.5 && transform.position.x < 24 && transform.position.x > 22 && !clicked) //Stop the car that go to the bottom
         {
             rb.velocity = stop;
             pass = true;
