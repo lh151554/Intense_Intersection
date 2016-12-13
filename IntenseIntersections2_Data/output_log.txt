@@ -1,0 +1,54 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     880 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\ii\IntenseIntersections2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.063 seconds
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\ii\IntenseIntersections2_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x800 50Hz; virtual: 1280x800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.312721 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.616460 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 1.039826 ms (FindLiveObjects: 0.074853 ms CreateObjectMapping: 0.080842 ms MarkObjects: 0.335344 ms  DeleteObjects: 0.547929 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.642506 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.710469 ms (FindLiveObjects: 0.076564 ms CreateObjectMapping: 0.083408 ms MarkObjects: 0.225844 ms  DeleteObjects: 0.323796 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.369182 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.708758 ms (FindLiveObjects: 0.076564 ms CreateObjectMapping: 0.083408 ms MarkObjects: 0.230549 ms  DeleteObjects: 0.317807 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.209683 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.683949 ms (FindLiveObjects: 0.070148 ms CreateObjectMapping: 0.084691 ms MarkObjects: 0.247231 ms  DeleteObjects: 0.280594 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4458 -> priority: 1 

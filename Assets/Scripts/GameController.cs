@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     public GameObject car; //Reference to car
+	public GameObject pedestrian; //Reference to pedestrian
     public float startWait; //Wait time before cars start to spawn
     public float waveWait; //Wait time between each car spawn
 
@@ -52,7 +53,9 @@ public class GameController : MonoBehaviour {
         while (true) //Infinite loop
         {
             int[] randomValue = new int[] { 1, 2, 3, 4 }; //4 possibles values
+			int[] randomValuePed = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
             int[] x = { 0, 0 }; //2 values table for spawning cars
+			int xPed = randomValuePed[Random.Range(0, randomValuePed.Length)]; //Take a random value for the pedestrian spawn point.
             x[0] = randomValue[Random.Range(0, randomValue.Length)]; //Take a random value for the spawning of the car (position and rotation)
             if(x[0] < 3)
             {
@@ -67,7 +70,9 @@ public class GameController : MonoBehaviour {
             int random = randomValue2[Random.Range(0, randomValue2.Length)]; //Take a random value of this 3 to know if 2 cars will spawn at teh same time
             int y = randomValue2[Random.Range(0, randomValue2.Length)]; //Take a random value of this 3  for waiting time before spawnign new car
             Vector3 spawnPosition = new Vector3(0, 0, 0); //Initial position initialization (0,0,0)
+			Vector3 spawnPositionPed = new Vector3(0,0,0);
             Quaternion spawnRotation = Quaternion.identity; //Initial rotation initialization (0,0,0,0)
+			Quaternion spawnRotationPed = Quaternion.identity;
 
             if(random == 0)
             {
@@ -141,6 +146,50 @@ public class GameController : MonoBehaviour {
                 carCount++; //Add one to the car counter
             }
                 
+			switch (xPed)
+			{
+			case 1: //Pedestrian bottom right, going upwards;
+				spawnPositionPed = new Vector3 (33.5f, 3, -6);
+				spawnRotationPed = Quaternion.AngleAxis (0, Vector3.up);
+				break;
+
+			case 2: //Pedestrian bottom left, going upwards;
+				spawnPositionPed = new Vector3 (19.25f, 3, -6);
+				spawnRotationPed = Quaternion.AngleAxis (0, Vector3.up);
+				break;
+
+			case 3: //Pedestrian bottom, going right;
+				spawnPositionPed = new Vector3 (-6, 3, 22);
+				spawnRotationPed = Quaternion.AngleAxis (90, Vector3.up);
+				break;
+
+			case 4: //Pedestrian top, going right;
+				spawnPositionPed = new Vector3 (-6, 3, 36.25f);
+				spawnRotationPed = Quaternion.AngleAxis (90, Vector3.up);
+				break;
+
+			case 5: //Pedestrian left, going bottom;
+				spawnPositionPed = new Vector3 (17.6f, 3, 66);
+				spawnRotationPed = Quaternion.AngleAxis (180, Vector3.up);
+				break;
+
+			case 6: //Pedestrian right, going bottom;
+				spawnPositionPed = new Vector3 (31.5f, 3, 66);
+				spawnRotationPed = Quaternion.AngleAxis (180, Vector3.up);
+				break;
+
+			case 7: //Pedestrian top, going right;
+				spawnPositionPed = new Vector3 (56, 3, 37.9f);
+				spawnRotationPed = Quaternion.AngleAxis (270, Vector3.up);
+				break;
+
+			case 8: //Pedestrian bottom, going right;
+				spawnPositionPed = new Vector3 (56, 3, 24);
+				spawnRotationPed = Quaternion.AngleAxis (270, Vector3.up);
+				break;
+			}
+
+			Instantiate(pedestrian, spawnPositionPed, spawnRotationPed);
 
         yield return new WaitForSeconds(waveWait + y); //Wait between each spawn
 

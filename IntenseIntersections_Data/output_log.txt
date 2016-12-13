@@ -1,0 +1,54 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) HD Graphics (ID=0x46)
+    Vendor:   Intel
+    VRAM:     880 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.102 seconds
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Utilisateur\Contacts\Desktop\Software Engineering\II2\Intense Intersections\IntenseIntersections_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x800 50Hz; virtual: 1280x800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.597588 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.581422 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.670260 ms (FindLiveObjects: 0.059027 ms CreateObjectMapping: 0.059882 ms MarkObjects: 0.242525 ms  DeleteObjects: 0.307968 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.371317 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.625348 ms (FindLiveObjects: 0.064160 ms CreateObjectMapping: 0.073142 ms MarkObjects: 0.216433 ms  DeleteObjects: 0.270328 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.524018 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.668549 ms (FindLiveObjects: 0.071431 ms CreateObjectMapping: 0.077847 ms MarkObjects: 0.241242 ms  DeleteObjects: 0.277172 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.603577 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 840.
+Total: 0.678814 ms (FindLiveObjects: 0.058599 ms CreateObjectMapping: 0.055177 ms MarkObjects: 0.256213 ms  DeleteObjects: 0.307541 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 19098 -> priority: 1 

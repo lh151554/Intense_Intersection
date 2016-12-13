@@ -1,11 +1,11 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp.Plugins", "Intense Intersections.CSharp.Plugins.csproj", "{C2A82601-2222-314F-1A03-255CBA766F84}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{50F0B330-7FE3-AAC1-2B71-95086208DE3C}") = "Intense Intersections", "Assembly-CSharp-firstpass.csproj", "{24F245C0-36CF-B2B4-CD23-7281B717C631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp", "Intense Intersections.CSharp.csproj", "{11EC1025-526C-2865-6F2A-95F8A42D9341}"
+Project("{50F0B330-7FE3-AAC1-2B71-95086208DE3C}") = "Intense Intersections", "Assembly-CSharp.csproj", "{7B2D5435-32DC-10BA-86CB-5E05E20B298B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intense Intersections.CSharp.Editor", "Intense Intersections.CSharp.Editor.csproj", "{289CB30E-34E2-B33A-9093-59155FD3CFD9}"
+Project("{50F0B330-7FE3-AAC1-2B71-95086208DE3C}") = "Intense Intersections", "Assembly-CSharp-Editor.csproj", "{0B7B175C-F589-DE47-8C7F-F61530ED9FC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2A82601-2222-314F-1A03-255CBA766F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2A82601-2222-314F-1A03-255CBA766F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2A82601-2222-314F-1A03-255CBA766F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2A82601-2222-314F-1A03-255CBA766F84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11EC1025-526C-2865-6F2A-95F8A42D9341}.Release|Any CPU.Build.0 = Release|Any CPU
-		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{289CB30E-34E2-B33A-9093-59155FD3CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F245C0-36CF-B2B4-CD23-7281B717C631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F245C0-36CF-B2B4-CD23-7281B717C631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F245C0-36CF-B2B4-CD23-7281B717C631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F245C0-36CF-B2B4-CD23-7281B717C631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2D5435-32DC-10BA-86CB-5E05E20B298B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2D5435-32DC-10BA-86CB-5E05E20B298B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2D5435-32DC-10BA-86CB-5E05E20B298B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2D5435-32DC-10BA-86CB-5E05E20B298B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7B175C-F589-DE47-8C7F-F61530ED9FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7B175C-F589-DE47-8C7F-F61530ED9FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7B175C-F589-DE47-8C7F-F61530ED9FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7B175C-F589-DE47-8C7F-F61530ED9FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
